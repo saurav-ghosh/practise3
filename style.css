@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.top-bg{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    background-size: cover;
+    
+
+}
+h1{
+    font-size: 50px;
+    line-height: 10px;
+    font-weight: 600;
+}
+.small-h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+h3{
+    color: rgb(47, 47, 47);
+}
+p{
+    color: rgb(126, 126, 126);
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.tomato-color{
+    color: #bd2e36;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+}
+.half-width img{
+    width: 80%;
+}
+.hire-me-btn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #e4c30c, #e7930c);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    
+}
+.hire-me-btn:hover{
+    background-image: linear-gradient(45deg, rgb(219, 72, 72), rgb(236, 33, 33));
+    
+}
+.cont-btn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(219, 72, 72), rgb(236, 33, 33));
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+.cont-btn:hover{
+    background-image: linear-gradient(45deg, #e4c30c, #e7930c);
+}
+.biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+.single-work{
+    width: 28%;
+    float: left;
+    margin-right: 3%;
+    box-shadow: 10px 10px 40px grey;
+    
+}
+.single-work img{
+    width: 100%;
+}
+.single-work img:hover{
+    cursor: pointer;
+}
+.latest-text{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: 5px rgb(30, 255, 0) underline;
+    padding-bottom: 80px;
+}
+.latest-work{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.work-wrapper{
+    margin-left: 10%;
+}
+.client-feedback{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    text-decoration: 5px rgb(243, 94, 7) underline;
+}
+.founder{
+    text-align: center;
+    line-height: 5px;
+    padding-bottom: 30px;
+}
+.founder h3{
+    color: rgb(97, 97, 97);
+}
+.founder h4{
+    font-size: 14px;
+    color: rgb(173, 173, 173);
+}
+.feedback-text{
+    text-align: center;
+    line-height: 0px;
+    padding-bottom: 20px;
+}
+.feedback-text p{
+    color: rgb(49, 49, 49);
+}
+.email{
+    text-align: center;
+    background-image: linear-gradient(45deg, rgb(243, 44, 44),#f30c13);
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 5px;
+    height: 120px;
+    margin-bottom: 180px;
+    line-height: 12px;
+}
+.email h3:first-child{
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 38px;
+    color: white;
+}
+.email h3:last-child{
+    font-size: 17px;
+    color: white;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+}
+footer{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
